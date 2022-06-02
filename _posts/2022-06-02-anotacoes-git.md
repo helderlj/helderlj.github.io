@@ -22,7 +22,7 @@ git push -u origin main
 # GIT FLOW
 
 ## Iniciando git flow localmente num projeto git (pode ser necessário instalar o flow)
-```git
+```bash
 git flow init
 ```
 
