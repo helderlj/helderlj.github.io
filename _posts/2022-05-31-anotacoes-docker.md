@@ -19,11 +19,6 @@ service docker start
 docker kill $(docker ps -q)
 ```
 
-## Mata todos os containers rodando dinamicamente
-```bash
-docker kill $(docker ps -q)
-```
-
 ## Mata todos os containers rodando no linux com sudo (utilizado em servidor de produção)
 ```bash
 sudo docker kill $(sudo docker ps -q)
@@ -34,7 +29,7 @@ sudo docker kill $(sudo docker ps -q)
 docker rm $(docker ps -a -q)
 ```
 
-## Remove todas as baixadas
+## Remove todas as imagens baixadas
 ```bash
 docker rmi $(docker images -q)
 ```
