@@ -10,7 +10,7 @@ tags: [git,cli,notes]
 Comados uteis GIT para ser utilizados em qualquer projeto GIT.
 
 ## Iniciar repositorio local e subir para repositorio online (repositorio online ja deve estar criado)
-```git
+```bash
 git init
 git add .
 git commit -m "Primeiro Commit"
@@ -27,17 +27,17 @@ git flow init
 ```
 
 ## Iniciando uma feature
-```git
+```bash
 git flow feature start nome-da-feature
 ```
 Codar e commitar normalmente
 ## Finalizando uma feature
-```git
+```bash
 git flow feature finish nome-da-feature
 ```
 
 ## Releases
-```git
+```bash
 git flow release start numero-da-versao
 git flow release finish numero-da-versao
 git checkout main
@@ -46,7 +46,7 @@ git push
 ```
 
 ## Hotfix/bugfix
-```git
+```bash
 git flow hotfix start numero-do-hotfix (ex. 1.0.1)
 code code + adds & commits
 git flow hotfix finish numero-do-hotfix (ex. 1.0.1)
