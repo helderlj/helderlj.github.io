@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Anotações Laser de Diodo"
-date: 2022-08-14 10:00:00 -0300
-categories: [laser,tecnico,command-line]
-tags: [laser,diode,notes]
+title: "Configuração do Z-Offset Impressora 3D com BL-TOUCH e Octoprint"
+date: 2022-08-14 11:00:00 -0300
+categories: [3D,tecnico,command-line]
+tags: [3dprinting,octopi,rpi]
 ---
 ![octoprint](https://octoprint.org/assets/img/octoprint-600x400.png)
 # Configurar o Z-Offset da impressora com BL-Touch via Octoprint.
