@@ -47,7 +47,7 @@ Reseta o eixo Z
 G28 Z
 ```
 
-Mode o bico para o Z-0 que estiver configurado no momento
+Move o bico para o Z-0 que estiver configurado no momento
 ```
 G1 F60 Z0
 ```
